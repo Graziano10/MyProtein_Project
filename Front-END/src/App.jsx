@@ -1,17 +1,11 @@
 import React from "react"
-import { Button } from 'react-bootstrap';
+import Home from "../src/pages/Home"
 
 function App() {
 
   return (
     <>
-     <h1>Hello Word</h1>
-     <div>
-      <Button variant="primary">Click Me</Button>
-    </div>
-    <div>
-      <Button variant="primary">Cliccami</Button>
-    </div>
+    <Home/>
     </>
   )
 }
