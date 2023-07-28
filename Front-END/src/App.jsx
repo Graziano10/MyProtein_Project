@@ -6,11 +6,9 @@ function App() {
 
   return (
     <>
-<<<<<<< HEAD
-     <Home/>
-=======
+
     <Home/>
->>>>>>> main
+
     </>
   )
 }
