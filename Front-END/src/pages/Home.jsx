@@ -5,11 +5,11 @@ const Home = () => {
   return (
     <>
      <h1>Hello Word</h1>
-     <div>
-      <Button variant="primary">Click Me</Button>
+     <div className="btn btn-primary">
+      click me
     </div>
     <div>
-      <Button variant="primary">Cliccami</Button>
+      
     </div>
     </>
   )
