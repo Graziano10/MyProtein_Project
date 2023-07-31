@@ -1,15 +1,12 @@
 import React from "react"
+import NovitaAbbigliamento from "../components/bundle/NovitaAbbigliamento";
 
 const Home = () => {
 
   return (
     <>
-     <h1>Hello Word</h1>
-     <div className="btn btn-primary">
-      click me
-    </div>
     <div>
-      
+    <NovitaAbbigliamento/>
     </div>
     </>
   )

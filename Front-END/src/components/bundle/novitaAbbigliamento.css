@@ -1,0 +1,26 @@
+
+
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image-container img {
+    display: block;
+    max-width: 100%;
+  }
+  
+.overlayButton {
+    width: 10rem;
+    position: absolute;
+    top: 83%;
+    left: 47%;
+    transform: translate(-10%, -10%);
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #008190;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .overlayButton:hover {background-color: #C4E3E7}
