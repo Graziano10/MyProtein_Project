@@ -3,15 +3,14 @@ import React from "react";
 function Haeder() {
   return (
     <nav class="navbar navbar-expand-lg bg-white fixed-top">
-      <div class="container-fluid d-flex justify-content-between">
-
-       <div
-          class="offcanvas offcanvas-start"
-          tabindex="-1"
-          id="offcanvasNavbar"
-          aria-labelledby="offcanvasNavbarLabel"
+      <div class="container-fluid">
+        <div
+        // class="offcanvas offcanvas-start"
+        // tabindex="-1"
+        // id="offcanvasNavbar"
+        // aria-labelledby="offcanvasNavbarLabel"
         >
-          <div class="offcanvas-header">
+          {/* <div class="offcanvas-header">
             <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
               Offcanvas
             </h5>
@@ -21,8 +20,8 @@ function Haeder() {
               data-bs-dismiss="offcanvas"
               aria-label="Close"
             ></button>
-          </div>
-          <div class="offcanvas-body">
+          </div> */}
+          {/* <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-start flex-grow-1 pe-3 ">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">
@@ -36,11 +35,20 @@ function Haeder() {
               </li>
             </ul>
            
-          </div>
+          </div> */}
+
+          {/* LOGO LENTE */}
+          <a href="">
+            <img
+              src="src\assets\magnifying-glass.png"
+              alt=""
+              className="icons"
+            />
+          </a>
         </div>
 
         <div className="icons-container">
-               <button
+          {/* <button
           className="navbar-toggler"
           type="button"
           data-bs-toggle="offcanvas"
@@ -50,28 +58,27 @@ function Haeder() {
           
         >
           <span class="navbar-toggler-icon"></span>
-        </button>
-        
-        <a href=""><img src="src\assets\magnifying-glass.png" alt="" className="icons"/></a>
-        </div>
-        
+        </button> */}
+
+          {/* LOGO MYPROTEIN */}
+
           <a class="navbar-brand " href="#">
-          <img src="src\assets\fb-image.png" alt="" className="logo"/>
-        </a>
-        <div className="icons-container">
-             <a href=""><img src="src\assets\user.png" alt="" className="icons"/></a>
-        <a href=""><img src="src\assets\shopping-cart.png" alt="" className="icons"/></a>
+            <img src="src\assets\fb-image.png" alt="" className="logo" />
+          </a>
         </div>
-        
-       
-        
-       
-        
-       
+
+        {/* LOGHI AVATAR CARRELLO */}
+
+        <div className="icons-container">
+          <a href="">
+            <img src="src\assets\user.png" alt="" className="icons" />
+          </a>
+          <a href="">
+            <img src="src\assets\shopping-cart.png" alt="" className="icons" />
+          </a>
+        </div>
       </div>
     </nav>
-
-    
   );
 }
 
