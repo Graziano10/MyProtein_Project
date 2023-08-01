@@ -7,7 +7,6 @@ const NovitaAbbigliamento = () => {
       <h2 style={{ textAlign: "center" }} classNameName="mb-5">
         Novita Abbigliamento
       </h2>
-
       <div class="container text-center">
         <div class="row">
           <div class="col">
@@ -109,8 +108,7 @@ const NovitaAbbigliamento = () => {
                 </div>
                 <div className="text-start my-2">
                   <h5 style={{ fontSize: "1rem", fontWeight: "400" }}>
-                    Crop top a costine senza cuciture MP Tempo da donna - Lilla
-                    acceso
+                    MP Men's Tempo Stringer - Black
                   </h5>
 
                   <div
@@ -170,7 +168,7 @@ const NovitaAbbigliamento = () => {
                       | Quando spendi 25€ in Abbigliamento
                     </h5>
                   </div>
-                  <h1 className="fs-5">35,99</h1>
+                  <h1 className="fs-5">27,99</h1>
                 </div>
               </div>
             </div>
@@ -189,8 +187,7 @@ const NovitaAbbigliamento = () => {
                 </div>
                 <div className="text-start my-2">
                   <h5 style={{ fontSize: "1rem", fontWeight: "400" }}>
-                    Crop top a costine senza cuciture MP Tempo da donna - Lilla
-                    acceso
+                    MP Men's Tempo Shorts - Black
                   </h5>
 
                   <div
@@ -269,7 +266,7 @@ const NovitaAbbigliamento = () => {
                 </div>
                 <div className="text-start my-2">
                   <h5 style={{ fontSize: "1rem", fontWeight: "400" }}>
-                    Crop top a costine senza cuciture MP Tempo da donna - Lilla
+                    Leggings a costine senza cuciture MP Tempo da donna - Lilla
                     acceso
                   </h5>
 
@@ -362,9 +359,65 @@ const NovitaAbbigliamento = () => {
                       | Quando spendi 25€ in Abbigliamento
                     </h5>
                   </div>
-                  <h1 className="fs-5">35,99</h1>
+                  <h1 className="fs-5">49,99</h1>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* BUTTON */}
+
+      <div class="container text-center my-5">
+        <div class="row">
+          <div class="col">
+            <button className="rounded-1 btn btnCenter border border-primary text-primary">
+              Visualizza Altro
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {/* LOGHI */}
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            {/* LOGO 01 */}
+            <img
+              src="src\assets\TrustPilotImg.jpg"
+              alt="Logo01"
+              width={"150px"}
+            />
+          </div>
+
+          <div class="col">
+            {/* LOGO 02 */}
+            <img src="src\assets\Train&Gain.png" alt="Logo02" width={"150px"} />
+          </div>
+
+          <div class="col">
+            {/* LOGO 03 */}
+            <img
+              src="src\assets\myprotein_subscribe_logo_blk-015918.png"
+              alt="Logo03"
+              width={"150px"}
+            />
+          </div>
+
+          <div class="col">
+            {/* LOGO 04 */}
+            <div className="d-flex flex-column mb-3 gap-1">
+              <img
+                src="src\assets\GooglePlay.png"
+                alt="Logo04"
+                width={"150px"}
+              />
+              <img
+                src="src\assets\App_Store_Badge-094340.png"
+                alt="Logo04"
+                width={"150px"}
+              />
             </div>
           </div>
         </div>
