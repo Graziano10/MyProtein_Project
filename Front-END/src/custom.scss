@@ -1,3 +1,21 @@
 $primary: teal;
+$body: white;
+.logo{
+    width: 180px;
+   
+}
+.icons-container{
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+.icons{
+    width: 40px;
+}
+.right-side{
+    width: 60%
+}
+
 
 @import '../node_modules/bootstrap/scss/bootstrap';
+

@@ -1,15 +1,13 @@
 import React from "react"
 import ConsigliatoPerTe from "../components/bundle/ConsigliatoPerTe";
+import Haeder from "../components/bundle/Haeder";
 const Home = () => {
 
   return (
     <>
-     <h1>Hello Word</h1>
-     <div className="btn btn-primary">
-      click me
-    </div>
     <div>
-      
+      <Haeder/>
+      <ConsigliatoPerTe/>
     </div>
     </>
   )
