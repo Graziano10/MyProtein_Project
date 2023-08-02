@@ -1,5 +1,3 @@
-
-
 .image-container {
   position: relative;
   display: inline-block;
@@ -27,7 +25,7 @@
   background-color: #c4e3e7;
 }
 
-.btnCenter{
+.btnCenter {
   box-shadow: 0 3px 2px rgba(0, 0, 0, 0.2);
   height: 40px;
   width: 10rem;
@@ -35,29 +33,64 @@
 
 .btnCenter:hover {
   background-color: #c4e3e7 !important;
-  color: #1F406B !important;
+  color: #1f406b !important;
 }
 
 /* 
   BUTTON FOOTER */
 
-  .btn-customFooter{
-    background-color: $primary;
-  }
+.btn-customFooter {
+  background-color: $primary;
+}
 
 .btn-customFooter:hover {
   background-color: ; /* Cambia il colore di sfondo in blu quando il bottone è selezionato */
   color: $primary;
 }
 
-
-
-
-
-
 .eastendFooterSocialIcons_listItemSvg:hover .eastendFooter_fill_hover {
-    opacity: 1;
-    transition: opacity 0.3s ease-in-out;
-    fill:#8EB8F8;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+  fill: #8eb8f8;
+}
+
+@media (max-width: 345px) {
+  .mediaLogo4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
   }
+
+}
+
+@media (max-width: 391px) {
+
+  .mediaLogo4 p{
+    text-align: flex-end;
+  }
+
+  .btnVisualizza{
+    width: 100%;
+  }
+}
+
+/* 
+.card {
+}
+
+@media (min-width: 767px) {
   
+  .card {
+    width: 30%; 
+  }
+}
+
+@media (max-width: 958px) {
+  .contentCard{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center; 
+  }
+} */
