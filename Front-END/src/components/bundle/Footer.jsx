@@ -1,9 +1,10 @@
 import React from "react";
+import "./footer.css";
 
 const Footer = () => {
   return (
     <>
-      <div className="p-3 d-flex bg-secondary-subtle mt-5 rounded-0">
+      <div className="p-3 d-flex flex-column bg-secondary-subtle mt-5 rounded-0 flex-sm-row">
         <div className="card-body mx-5">
           <p className="card-text fw-bold">
             Registrati per ricevere le nostre offerte
@@ -12,7 +13,7 @@ const Footer = () => {
             Registrati
           </a>
         </div>
-        <div className="card-body">
+        <div className="card-body mx-5 my-3">
           <p className="card-text fw-bold">Connettiti con noi</p>
           <div className="container text-center">
             <div className="row">
