@@ -4,13 +4,13 @@ import "./novitaAbbigliamento.css";
 const NovitaAbbigliamento = () => {
   return (
     <>
-      <h2 style={{ textAlign: "center" }} classNameName="mb-5">
+      <h2 style={{ textAlign: "center" }} className="mb-5">
         Novita Abbigliamento
       </h2>
       <div className="d-flex justify-content-center align-items-center" style={{height:"100%"}}>
-        <div class="mx-5 text-center contentCard ">
-          <div class="row">
-            <div class="col">
+        <div className="mx-5 text-center contentCard ">
+          <div className="row">
+            <div className="col">
               {/* CARD 01 */}
 
               <div className="my-4">
@@ -62,7 +62,7 @@ const NovitaAbbigliamento = () => {
                     <div className="my-4">
                       <div style={{ display: "flex", gap: "0.2rem" }}>
                         <svg
-                          classNameName="label"
+                          className="label"
                           fill="#BB1823"
                           width={"20px"}
                           display={"flex"}
@@ -101,7 +101,7 @@ const NovitaAbbigliamento = () => {
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div className="col">
               {/* CARD 02*/}
 
               <div className="my-4">
@@ -144,7 +144,7 @@ const NovitaAbbigliamento = () => {
                     <div className="my-4">
                       <div style={{ display: "flex", gap: "0.2rem" }}>
                         <svg
-                          classNameName="label"
+                          className="label"
                           fill="#BB1823"
                           width={"20px"}
                           display={"flex"}
@@ -183,7 +183,7 @@ const NovitaAbbigliamento = () => {
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div className="col">
               {/* CARD 03*/}
 
               <div className="my-4">
@@ -226,7 +226,7 @@ const NovitaAbbigliamento = () => {
                     <div className="my-4">
                       <div style={{ display: "flex", gap: "0.2rem" }}>
                         <svg
-                          classNameName="label"
+                          className="label"
                           fill="#BB1823"
                           width={"20px"}
                           display={"flex"}
@@ -265,7 +265,7 @@ const NovitaAbbigliamento = () => {
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div className="col">
               {/* CARD 04*/}
 
               <div className="my-4">
@@ -341,7 +341,7 @@ const NovitaAbbigliamento = () => {
                     <div className="my-4">
                       <div style={{ display: "flex", gap: "0.2rem" }}>
                         <svg
-                          classNameName="label"
+                          className="label"
                           fill="#BB1823"
                           width={"20px"}
                           display={"flex"}
@@ -386,9 +386,9 @@ const NovitaAbbigliamento = () => {
 
       {/* BUTTON */}
 
-      <div class="container text-center my-5">
-        <div class="row">
-          <div class="col">
+      <div className="container text-center my-5">
+        <div className="row">
+          <div className="col">
             <button className="rounded-1 btn btnCenter border border-primary text-primary btnVisualizza">
               Visualizza Altro
             </button>
@@ -397,9 +397,9 @@ const NovitaAbbigliamento = () => {
       </div>
 
       {/* LOGHI */}
-      <div class="container text-center">
-        <div class="row">
-          <div class="col">
+      <div className="container text-center">
+        <div className="row">
+          <div className="col">
             {/* LOGO 01 */}
             <img
               src="src\assets\TrustPilotImg.jpg"
@@ -408,13 +408,13 @@ const NovitaAbbigliamento = () => {
             />
           </div>
 
-          <div class="col">
+          <div className="col">
             {/* LOGO 02 */}
             <img src="src\assets\Train&Gain.png" alt="Logo02" width={"150px"} />
             <p>Ricevi credito da spendere su Myprotein</p>
           </div>
 
-          <div class="col">
+          <div className="col">
             {/* LOGO 03 */}
             <img
               src="src\assets\myprotein_subscribe_logo_blk-015918.png"
@@ -424,7 +424,7 @@ const NovitaAbbigliamento = () => {
             <p>Ricevi credito da spendere su Myprotein</p>
           </div>
 
-          <div class="col">
+          <div className="col">
             {/* LOGO 04 */}
             <div className="d-flex flex-column mt-5 gap-1 mediaLogo4 d-flex justify-content-center align-items-center">
               <img

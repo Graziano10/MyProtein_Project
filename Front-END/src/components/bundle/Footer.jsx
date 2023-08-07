@@ -4,7 +4,10 @@ import "./footer.css";
 const Footer = () => {
   return (
     <>
-      <div className="p-3 d-flex flex-column bg-secondary-subtle mt-5 rounded-0 flex-sm-row">
+      <div
+        className="p-4 d-flex flex-column bg-secondary mt-5 rounded-0 flex-sm-row text-white"
+        style={{ width: "100%" }}
+      >
         <div className="card-body mx-5">
           <p className="card-text fw-bold">
             Registrati per ricevere le nostre offerte
@@ -13,7 +16,7 @@ const Footer = () => {
             Registrati
           </a>
         </div>
-        <div className="card-body mx-5 my-3">
+        <div className="card-body mx-5">
           <p className="card-text fw-bold">Connettiti con noi</p>
           <div className="container text-center">
             <div className="row">
@@ -224,6 +227,217 @@ const Footer = () => {
       </div>
 
       {/* // FOOTER 02 */}
+      <div>
+        <div className="text-center bg-dark">
+          <div className="row p-0 m-0">
+            {/* COLUMN 01 */}
+            <div className="col flex-lg-grow-1 my-5 mx-3 ">
+              <div
+                className="card text-start border-0"
+                style={{ width: "100%" }}
+              >
+                <ul className="list-group list-group-flush">
+                  <li className="bg-dark text-white list-group-item fw-bold border-0">
+                    Aiuto & Informazioni
+                  </li>
+                  <li className="list-group-item bg-dark text-white">
+                    <svg
+                      className="eastendFooterLinkColumns_svgIcon me-1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="white"
+                    >
+                      <path
+                        className="eastendFooterLinkColumns_svgIconFill-dark"
+                        d="M9.34926478,14.6507352 C10.6183524,15.9198228 11.9635202,16.7318171 13.2447593,17.2840269 L16.4221165,14.1066697 C16.7225956,13.8061906 17.2097685,13.8061906 17.5102476,14.1066697 L20.7746407,17.3710628 C21.0751198,17.6715419 21.0751198,18.1587148 20.7746407,18.4591939 L19.9585424,19.2752921 C18.4451709,20.7886636 16.324403,21.2121111 13.9738217,20.9074887 C11.5280175,20.5905259 9.09140996,19.7137455 6.62893719,17.3710628 C4.2862545,14.90859 3.40947407,12.4719825 3.09251131,10.0261783 C2.78788892,7.67559701 3.21133638,5.55482909 4.72470787,4.0414576 L5.54080615,3.22535932 C5.84128524,2.92488023 6.3284581,2.92488023 6.62893719,3.22535932 L9.8933303,6.48975243 C10.1938094,6.79023152 10.1938094,7.27740438 9.8933303,7.57788347 L6.71597306,10.7552407 C7.26818295,12.0364798 8.08017716,13.3816476 9.34926478,14.6507352 L9.34926478,14.6507352 Z"
+                      ></path>
+                    </svg>
+                    Servizio Clienti
+                  </li>
+                  <li className="list-group-item bg-dark text-white">
+                    <svg
+                      className="eastendFooterLinkColumns_svgIcon me-1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="white"
+                    >
+                      <path
+                        className="eastendFooterLinkColumns_svgIconFill-dark"
+                        d="M6,7.43978349 C6.12053571,4.32746955 8.19642857,2 12.0803571,2 C15.6160714,2 18,4.12449256 18,7.0608931 C18,9.14479026 16.9553571,10.6197564 15.1875,11.6887686 C13.4598214,12.7171854 12.9642857,13.4343708 12.9642857,14.8010825 L12.9642857,15.6129905 L10.1919643,15.6129905 L10.1785714,14.5845737 C10.1116071,12.6359946 10.9285714,11.4181326 12.7633929,10.308525 C14.3839286,9.32070365 14.9598214,8.54939107 14.9598214,7.1826793 C14.9598214,5.69418133 13.7678571,4.61163735 11.9330357,4.61163735 C10.0848214,4.61163735 8.89285714,5.70771313 8.77232143,7.43978349 L6,7.43978349 Z M11.7455357,22 C10.5133929,22 9.66964286,21.1745602 9.66964286,19.9431664 C9.66964286,18.6847091 10.5133929,17.8592693 11.7455357,17.8592693 C12.9776786,17.8592693 13.8080357,18.6847091 13.8080357,19.9431664 C13.8080357,21.1745602 12.9776786,22 11.7455357,22 Z"
+                      ></path>
+                    </svg>
+                    Domande Frequenti
+                  </li>
+                  <li className="list-group-item bg-dark text-white">
+                    <svg
+                      className="eastendFooterLinkColumns_svgIcon me-1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="white"
+                    >
+                      <path
+                        className="eastendFooterLinkColumns_svgIconFill-dark"
+                        d="M12,2 C17.5228475,2 22,6.4771525 22,12 C22,14.4452017 21.1179427,16.7564187 19.5448599,18.5633646 L18.0364037,17.2501397 C19.2954713,15.8038921 20,13.9578458 20,12 C20,7.581722 16.418278,4 12,4 L12,6 L8,3 L12,-1.71807013e-13 L12,2 Z M12,22 C6.4771525,22 2,17.5228475 2,12 C2,9.55479826 2.88205727,7.24358127 4.45514006,5.43663535 L5.96359628,6.74986033 C4.70452866,8.19610785 4,10.0421542 4,12 C4,16.418278 7.581722,20 12,20 L12,18 L16,21 L12,24 L12,22 Z"
+                      ></path>
+                    </svg>
+                    Resi
+                  </li>
+                  <li className="list-group-item bg-dark text-white">
+                    <svg
+                      className="eastendFooterLinkColumns_svgIcon me-1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="white"
+                    >
+                      <path
+                        className="eastendFooterLinkColumns_svgIconFill-dark"
+                        d="M9.83652345,17.9961822 C9.3919824,19.723605 7.82412481,21 5.958194,21 C4.09226318,21 2.52440559,19.723605 2.07986455,17.9961822 L1,17.9961822 L1,4 L15.9694148,4 L15.9694148,6.00193404 C18.6390737,5.98791883 19.9739032,5.98091123 19.9739032,5.98091123 C19.9739032,5.98091123 20.9750253,7.64969887 22.9772694,10.9872742 L23,18.0240497 L21.8455118,18.013418 C21.3950059,19.7320885 19.8313785,21 17.971659,21 C16.1057282,21 14.5378706,19.723605 14.0933296,17.9961822 L9.83652345,17.9961822 Z M14.9682928,7.9834564 L14.9682928,11.9885467 L20.9750253,11.9885467 L20.9750253,10.9872742 L18.9727811,7.9834564 L14.9682928,7.9834564 Z M5.958194,18.9974548 C7.06400292,18.9974548 7.96043817,18.1008848 7.96043817,16.9949097 C7.96043817,15.8889345 7.06400292,14.9923645 5.958194,14.9923645 C4.85238508,14.9923645 3.95594983,15.8889345 3.95594983,16.9949097 C3.95594983,18.1008848 4.85238508,18.9974548 5.958194,18.9974548 Z M17.971659,18.9974548 C19.0774679,18.9974548 19.9739032,18.1008848 19.9739032,16.9949097 C19.9739032,15.8889345 19.0774679,14.9923645 17.971659,14.9923645 C16.8658501,14.9923645 15.9694148,15.8889345 15.9694148,16.9949097 C15.9694148,18.1008848 16.8658501,18.9974548 17.971659,18.9974548 Z"
+                      ></path>
+                    </svg>
+                    Spedizioni
+                  </li>
+                  <li className="list-group-item bg-dark text-white">
+                    <svg
+                      className="eastendFooterLinkColumns_svgIcon me-1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="white"
+                    >
+                      <path
+                        className="eastendFooterLinkColumns_svgIconFill-dark"
+                        d="M15,13.9826667 L10.9926758,22 L9,21.9711111 L11,13.9826667 L7,13.9826667 L5.45526614,13.9826667 L4,15.9797778 L2,15.9797778 L3,11.9855556 L2,7.99133334 L4,7.99133334 L5.33333333,9.98844445 L7,9.98844445 L10.8803816,9.98844445 L9,2 L11,2 L15,9.98844445 L18,9.98844445 C21,9.98844445 22,11.0431931 22,11.9855556 C22,12.927918 21,13.9826667 18,13.9826667 L15,13.9826667 Z"
+                      ></path>
+                    </svg>
+                    Spedizioni Internazionali
+                  </li>
+                  <li className="list-group-item bg-dark text-white">
+                    <svg
+                      className="eastendFooterLinkColumns_svgIcon me-1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="white"
+                    >
+                      <path
+                        className="eastendFooterLinkColumns_svgIconFill-dark"
+                        fill-rule="nonzero"
+                        d="M13 2.05A10.003 10.003 0 0121.95 11H24v2h-2.05A10.003 10.003 0 0113 21.95V24h-2v-2.05A10.003 10.003 0 012.05 13H0v-2h2.05A10.003 10.003 0 0111 2.05V0h2v2.05zM12 16a4 4 0 110-8 4 4 0 010 8zm0 4a8 8 0 100-16 8 8 0 000 16z"
+                      ></path>
+                    </svg>
+                    Traccia il mio ordine
+                  </li>
+                </ul>
+
+                {/* DOUP */}
+                <div className="d-flex gap-2 container mt-1">
+                  <div
+                    className="rounded-circle bg-primary"
+                    style={{ width: "2rem", height: "2rem" }}
+                  ></div>
+
+                  <div className="btn-group dropup raunded-0 border">
+                    <button
+                      type="button"
+                      className="btn bg-dark text-white dropdown-toggle rounded-1"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Seleziona Lingua
+                    </button>
+                    <ul className="dropdown-menu">
+                      <li>
+                        <a className="dropdown-item" href="#">
+                          Menu item
+                        </a>
+                      </li>
+                      <li>
+                        <a className="dropdown-item" href="#">
+                          Menu item
+                        </a>
+                      </li>
+                      <li>
+                        <a className="dropdown-item" href="#">
+                          Menu item
+                        </a>
+                      </li>
+                      <li>
+                        <a className="dropdown-item" href="#">
+                          Menu item
+                        </a>
+                      </li>
+                      <li>
+                        <a className="dropdown-item" href="#">
+                          Menu item
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div
+                  className="card border-0 border-top my-3"
+                  style={{ width: "18rem" }}
+                >
+                  <ul className="list-group list-group-flush">
+                    <li className="list-group-item bg-dark text-white">
+                      {/* DROPDPWN 01 */}
+
+                      <div className="dropdown ">
+                        <button
+                          className="border-0 bg-dark text-start btn btn-secondary dropdown-toggle" style={{width:"100%"}}
+                          type="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          Dropdown button
+                        </button>
+                        <ul className="dropdown-menu">
+                          <li>
+                            <a className="dropdown-item" href="#">
+                              Action
+                            </a>
+                          </li>
+                          <li>
+                            <a className="dropdown-item" href="#">
+                              Another action
+                            </a>
+                          </li>
+                          <li>
+                            <a className="dropdown-item" href="#">
+                              Something else here
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li className="list-group-item bg-dark text-white">A second item</li>
+                    <li className="list-group-item bg-dark text-white" >A third item</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            {/* COLUMN 02 */}
+            <div className=" d-none d-sm-block col-sm">Column02</div>
+
+            {/* COLUMN 03 */}
+            <div className="d-none d-lg-block col-lg">Column03</div>
+
+            {/* COLUMN 04 */}
+            <div className="d-none d-lg-block col-lg">Column04</div>
+          </div>
+        </div>
+      </div>
 
       {/* // FOOTER 03 */}
     </>
